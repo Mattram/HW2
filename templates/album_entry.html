@@ -1,0 +1,8 @@
+<h1>
+<form action="{{url_for('albumres')}}" method="POST">
+  {{ form.hidden_tag() }}
+  {{ form.album.label }} {{ form.album() }}<br>
+  {{ form.rbutton.label }} {{ form.rbutton() }}<br>
+  {{ form.submit() }}<br>
+</form>
+</h1>
